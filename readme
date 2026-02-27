@@ -1,3 +1,63 @@
+This repository contains several small projects developed during my learning process.
+
+ARK
+Includes implementation and analysis of:
+  Process Module
+  Driver Module
+  SSDT Module
+  Shadow SSDT Module
+  IDT Module
+  GDT Module
+  Memory Read/Write Module
+
+Debugger
+A lightweight console-based debugger with the following features:
+  Single-step execution
+  Hardware/Memory breakpoints
+  Software breakpoints
+  Disassembly
+  Thread register modification
+  Memory read/write operations
+
+GSCore
+Performs function analysis on DLL files inside executables and reconstructs function declarations into header file format.
+
+Windows Remote Control System
+  Tested between virtual machines and physical machines.
+  Implements a reliable UDP protocol (TCP-like reliability over UDP)
+  Screen capture
+  Keyboard & mouse control
+  Remote CMD execution
+  File transfer
+  File list browsing
+
+Mobile Game Assistant Reverse Engineering
+  Analyzed anti-debugging techniques used by the software
+  Bypassed login verification to enable normal usage
+  Explicit authorization obtained from the original author
+  For learning and research purposes only
+
+Windows Version – Student Management System
+  Runs across virtual and physical machine environments using a client-server architecture.
+Supports:
+  Student management
+  Grade management
+  Class management
+  Various combined queries (e.g., Student ID + Class, Name + Class, etc.)
+  Full CRUD operations
+
+
+Ubuntu Version – Student Management System
+  Database runs on Ubuntu (C++ server application)
+  Client runs on Android
+  Client-server architecture across virtual and physical machines
+Includes:
+  Student management
+  Grade management
+  Class management
+  Various combined queries (Student ID + Class, Name + Class, etc.)
+  Full CRUD operations
+
 该仓库为本人学习过程中做过的一些小项目
 
 ARK:进程模块、驱动模块、SSDT 模块、ShadowSSDT 模块、IDT 模块、GDT 模块、内存读写模块
@@ -15,4 +75,5 @@ windows远控：虚拟机和真实机之间测试，通过UDP模拟TCP实现可�
 
 Ubuntu版本学生管理系统：数据库在ubuntu下运行C++程序，客户端运行在安卓端的学生管理系统
 运行在虚拟机和真实机不同环境下，通过服务器和客户端 对学生数据库的窗口版本增删改查
+
 主要包括学生管理 成绩管理 班级管理，各种组合查询 学号+班级 姓名+班级 等等组合
